@@ -1,5 +1,7 @@
 ---
 - name: Demo Playbook
+  set_fact:
+    ansible_port: 4242
   hosts: all
   tasks:
     - name: Leaving a mark
