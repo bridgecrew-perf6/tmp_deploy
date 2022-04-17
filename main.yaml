@@ -2,8 +2,5 @@
 - name: Demo Playbook
   hosts: all
   tasks:
-    - name: Set SSH Port
-      set_fact:
-        ansible_port: 4242
     - name: Leaving a mark
       command: "touch /tmp/ansible_was_here"
