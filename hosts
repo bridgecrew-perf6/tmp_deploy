@@ -3,4 +3,4 @@ ansible_connection=ssh
 ansible_user=ubuntu
 
 [ec2]
-34.240.7.238
+34.245.19.164
